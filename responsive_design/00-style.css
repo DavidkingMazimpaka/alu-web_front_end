@@ -115,12 +115,7 @@ select {
 [type=reset],
 [type=submit],
 button {
-    appearance: none;
-}
-
-button {
-    -webkit-appearance: none;
-    -moz-appearance: none;
+    -webkit-appearance: textfield;
     appearance: none;
 }
 
