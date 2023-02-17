@@ -115,7 +115,13 @@ select {
 [type=reset],
 [type=submit],
 button {
-    -webkit-appearance: button
+    appearance: none;
+}
+
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 [type=button]::-moz-focus-inner,
@@ -166,7 +172,8 @@ textarea {
 }
 
 [type=search] {
-    -webkit-appearance: textfield;
+    appearance: none;
+    -webkit-appearance: none;
     outline-offset: -2px
 }
 
